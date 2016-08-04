@@ -3,6 +3,9 @@
   <head>
     <title>Cabin Near Mt. Adams</title>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/custom.css" media="screen">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,6 +17,92 @@
           </ul>
         <h1>Cabin Near Mt. Adams</h1>
       </div>
+      <!-- modal windows -->
+      <div class="modal fade" id="hiking2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h3 class="modal-title">Lakeside Hike</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/hiking2.jpg" class="img-responsive">
+              <p>We have a beautiful lake that we can hike beside, or just enjoy the view from the porch!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="hiking3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Log Hike</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/hiking3.jpg" class="img-responsive">
+              <p>There is a pleasant hike with handmade log bridge taken from the leftover logs from our cabin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="fishing2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Sunset Fishing</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/fishing2.jpg" class="img-responsive">
+              <p>A pretty lake just a short drive away is filled with many fish ripe for catching</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="fishing3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">River Fishing</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/fishing3.jpg" class="img-responsive">
+              <p>A river is nearby where fly fishing is easy and enjoyable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="rafting2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Calm Rafting</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/rafting2.jpg" class="img-responsive">
+              <p>A nearby river is a good place to go if you are a beginner rafter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="rafting3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 class="modal-title">Log Hike</h3>
+            </div>
+            <div class="modal-body">
+              <img src="img/rafting3.jpg" class="img-responsive">
+              <p>If you have some experience rafting, there are more difficult rapids just a few miles away.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--               -->
       <div class="jumbotron">
         <h1>Outdoor Activities!</h1>
       </div>
@@ -26,27 +115,35 @@
           <div class="row">
             <div class="col-xs-6">
               <p>Hike around the lake</p>
-              <img class="img-responsive" src="img/hiking2.jpg" alt="more hiking">
+              <a data-toggle="modal" href="#hiking2">
+                <img class="img-responsive" src="img/hiking2.jpg" alt="more hiking">
+              </a>
             </div>
             <div class="col-xs-6">
               <p>Hike across a log</p>
-              <img class="img-responsive" src="img/hiking3.jpg" alt="even more hiking">
+              <a data-toggle="modal" href="#hiking3">
+                <img class="img-responsive" src="img/hiking3.jpg" alt="even more hiking">
+              </a>
             </div>
           </div>
         </div>
         <div class="col-sm-4">
           <h2>Fishing</h2>
-          <p>There is a lot of fish near the cabin. You can catch red fish, you can catch blue fish. You can catch one fish, you can catch two fish!</p>
           <img class="img-responsive" src="img/fishing.jpg" alt="image of fishing" />
+          <p>There is a lot of fish near the cabin.</p>
           <hr>
           <div class="row">
             <div class="col-xs-6">
               <p>Fish during sunset</p>
-              <img class="img-responsive" src="img/fishing2.jpg" alt="more fishing">
+              <a data-toggle="modal" href="#fishing2">
+                <img class="img-responsive" src="img/fishing2.jpg" alt="more fishing">
+              </a>
             </div>
             <div class="col-xs-6">
               <p>Fish near a bridge</p>
-              <img class="img-responsive" src="img/fishing3.jpg" alt="even more fishing">
+              <a data-toggle="modal" href="#fishing3">
+                <img class="img-responsive" src="img/fishing3.jpg" alt="even more fishing">
+              </a>
             </div>
           </div>
         </div>
@@ -58,15 +155,20 @@
           <div class="row">
             <div class="col-xs-6">
               <p>Calm rafting</p>
-              <img class="img-responsive" src="img/rafting2.jpg" alt="more rafting">
+              <a data-toggle="modal" href="#rafting2">
+                <img class="img-responsive" src="img/rafting2.jpg" alt="more rafting">
+              </a>
             </div>
             <div class="col-xs-6">
               <p>Raft on green water</p>
-              <img class="img-responsive" src="img/rafting3.jpg" alt="even more rafting">
+              <a data-toggle="modal" href="#rafting3">
+                <img class="img-responsive" src="img/rafting3.jpg" alt="even more rafting">
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </body>
 </html>
