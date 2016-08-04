@@ -7,3 +7,20 @@
 .jumbotron, h2 {
   text-align: center;
 }
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #222;
+}
+
+.carousel-indicators li {
+  border-color: #222;
+}

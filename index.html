@@ -3,6 +3,9 @@
   <head>
     <title>Cabin Near Mt. Adams</title>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/custom.css" media="screen">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="js/bootstrap.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,6 +17,32 @@
           </ul>
         <h1>Cabin Near Mt. Adams</h1>
       </div>
+    </div>
+    <div id="ourPhotos" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#ourPhotos" data-slide-to="0"></li>
+          <li data-target="#ourPhotos" data-slide-to="1"></li>
+          <li data-target="#ourPhotos" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="img-responsive" src="img/hiking2.jpg">
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="img/chilling.jpg">
+          </div>
+          <div class="item">
+            <img class="img-responsive" src="img/rafting2.jpg">
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#ourPhotos" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#ourPhotos" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
     </div>
   </body>
 </html>
