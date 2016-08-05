@@ -4,7 +4,7 @@ __Version 1.0.0: August 4, 2016__
 #### by [Karen Freeman-Smith](http://karenfreemansmith.github.io) and [Sandro Alvarez](https://github.com/SandroMateo)
 
 ### Description
-__*Cupcake shop website to practice applying css classes to page.*__
+__*Vacation website to practice building a webstie with Bootstrap.*__
 
 ### Setup/Installation
 *Clone or download and extract to use, or click link above to view.*
@@ -16,7 +16,7 @@ For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
 * No bugs, only undocumented features!
 
 ### Technologies Used
-#### HTML, CSS
+#### HTML, CSS, Bootstrap
 
 ### Legal
 *Licensed under the GNU General Public License v3.0*
