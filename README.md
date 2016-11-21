@@ -1,4 +1,4 @@
-# :mount_fuji: [Mountain Cabint](http://karenfreemansmith.github.io/mtadamscabin) :evergreen_tree:
+# :mount_fuji: [Mountain Cabin](http://karenfreemansmith.github.io/mtadamscabin) :evergreen_tree:
 
 __Version 1.0.0: August 4, 2016__
 #### by [Karen Freeman-Smith](http://karenfreemansmith.github.io) and [Sandro Alvarez](https://github.com/SandroMateo)
@@ -6,19 +6,22 @@ __Version 1.0.0: August 4, 2016__
 ### Description
 __*Vacation website to practice building a webstie with Bootstrap.*__
 
-### Setup/Installation
-*Clone or download and extract to use, or click link above to view.*
+## Technologies Used
+HTML, CSS
 
-### Support & Contact
-For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* _OR_
+* Clone diectory 
+* Open index.html in your favorite browser
 
-### Known Issues
-* No bugs, only undocumented features!
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
-### Technologies Used
-#### HTML, CSS, Bootstrap
+## Known Issues
+* None
 
-### Legal
+## Legal
 *Licensed under the GNU General Public License v3.0*
 
-Copyright (c) 2016 **_Karen Freeman-Smith_&_Sandro Alvarez**
+Copyright (c) 2016 Copyright _[Karen Freeman-Smith](https://karenfreemansmith.github.io)_ All Rights Reserved.
